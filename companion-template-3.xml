@@ -3,7 +3,7 @@
 	<info>
 		<name>Companions Templates</name>
 		<description>Companion Template 3 from Heliana's Guide to Monster Hunting</description>
-		<update version="0.1.5">
+		<update version="0.1.6">
 			<file name="companion-template-3.xml"
 				url="https://raw.githubusercontent.com/Julitutu/Heliana-s-Guide-to-Monster-Hunting/refs/heads/main/Familiars/companion-template-3.xml" />
 		</update>
@@ -79,7 +79,7 @@
 				</strong>_________________________</p>
 		</description>
 		<sheet>
-			<description>___________ (CR {{companion:cr:1}}) - {{size}}, {{type}}, Prof: {{proficiency}}. It gain {{hit dice gained:Companion:3}} hit dice. ATK/DMG: +{{go for the throat:bonus:1}}</description>
+			<description>(CR {{challengeratethree}}) - {{size}}, {{type}}, Prof: {{proficiency}}. It gain {{gainhitdicethree}} hit dice. ATK/DMG: +{{goforthethroatthree}}</description>
 		</sheet>
 		<rules>
 			<!-- Creature Type -->
@@ -90,16 +90,17 @@
 
 			<select type="Class Feature" name="Companion 3: CR" supports="Companion 3 CR" />
 			
-			<stat name="hit dice gained:Companion:3" value="0" />
+			<stat name="goforthethroatthree" value="0" />
+			<stat name="gainhitdicethree" value="0" />
 
-			<stat name="Companion:3:str" value="0" />
-			<stat name="Companion:3:dex" value="0" />
-			<stat name="Companion:3:con" value="0" />
-			<stat name="Companion:3:int" value="0" />
-			<stat name="Companion:3:wis" value="0" />
-			<stat name="Companion:3:cha" value="0" />
+			<stat name="three:str" value="0" />
+			<stat name="three:dex" value="0" />
+			<stat name="three:con" value="0" />
+			<stat name="three:int" value="0" />
+			<stat name="three:wis" value="0" />
+			<stat name="three:cha" value="0" />
 
-			<stat name="go for the throat:bonus:1" value="0" />
+			
 		</rules>
 	</element>
 
@@ -112,15 +113,16 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="companion:cr:1" value="0" inline="true"/>
+			<stat name="challengeratethree" value="0" inline="true"/>
+			<stat name="gainhitdicethree" value="0" />
 
 			<grant type="Class Feature" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_HALF_3"/>
 
-			<stat name="hit dice gained:Companion:3" value="1" level="4" />
-			<stat name="hit dice gained:Companion:3" value="1" level="8" />
-			<stat name="hit dice gained:Companion:3" value="1" level="12" />
-			<stat name="hit dice gained:Companion:3" value="1" level="16" />
-			<stat name="hit dice gained:Companion:3" value="1" level="19" />
+			<stat name="gainhitdicethree" value="1" level="4" />
+			<stat name="gainhitdicethree" value="1" level="8" />
+			<stat name="gainhitdicethree" value="1" level="12" />
+			<stat name="gainhitdicethree" value="1" level="16" />
+			<stat name="gainhitdicethree" value="1" level="19" />
 		</rules>
 	</element>
 	<element name="CR 1/8" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_CR_1_8_3">
@@ -131,15 +133,16 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="companion:cr:1" value="1/8" inline="true"/>
+			<stat name="challengeratethree" value="1/8" inline="true"/>
+			<stat name="gainhitdicethree" value="0" />
 
 			<grant type="Class Feature" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_HALF_3"/>
 
-			<stat name="hit dice gained:Companion:3" value="1" level="4" />
-			<stat name="hit dice gained:Companion:3" value="1" level="8" />
-			<stat name="hit dice gained:Companion:3" value="1" level="12" />
-			<stat name="hit dice gained:Companion:3" value="1" level="16" />
-			<stat name="hit dice gained:Companion:3" value="1" level="19" />
+			<stat name="gainhitdicethree" value="1" level="4" />
+			<stat name="gainhitdicethree" value="1" level="8" />
+			<stat name="gainhitdicethree" value="1" level="12" />
+			<stat name="gainhitdicethree" value="1" level="16" />
+			<stat name="gainhitdicethree" value="1" level="19" />
 		</rules>
 	</element>
 	<element name="CR 1/4" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_CR_1_4_3">
@@ -150,15 +153,16 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="companion:cr:1" value="1/4" inline="true"/>
+			<stat name="challengeratethree" value="1/4" inline="true"/>
+			<stat name="gainhitdicethree" value="0" />
 
 			<grant type="Class Feature" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_HALF_3"/>
 
-			<stat name="hit dice gained:Companion:3" value="1" level="4" />
-			<stat name="hit dice gained:Companion:3" value="1" level="8" />
-			<stat name="hit dice gained:Companion:3" value="1" level="12" />
-			<stat name="hit dice gained:Companion:3" value="1" level="16" />
-			<stat name="hit dice gained:Companion:3" value="1" level="19" />
+			<stat name="gainhitdicethree" value="1" level="4" />
+			<stat name="gainhitdicethree" value="1" level="8" />
+			<stat name="gainhitdicethree" value="1" level="12" />
+			<stat name="gainhitdicethree" value="1" level="16" />
+			<stat name="gainhitdicethree" value="1" level="19" />
 		</rules>
 	</element>
 	<element name="CR 1/2" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_CR_1_2_3">
@@ -169,15 +173,16 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="companion:cr:1" value="1/2" inline="true"/>
+			<stat name="challengeratethree" value="1/2" inline="true"/>
+			<stat name="gainhitdicethree" value="0" />
 			
 			<grant type="Class Feature" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_HALF_3"/>
 			
-			<stat name="hit dice gained:Companion:3" value="1" level="4" />
-			<stat name="hit dice gained:Companion:3" value="1" level="8" />
-			<stat name="hit dice gained:Companion:3" value="1" level="12" />
-			<stat name="hit dice gained:Companion:3" value="1" level="16" />
-			<stat name="hit dice gained:Companion:3" value="1" level="19" />
+			<stat name="gainhitdicethree" value="1" level="4" />
+			<stat name="gainhitdicethree" value="1" level="8" />
+			<stat name="gainhitdicethree" value="1" level="12" />
+			<stat name="gainhitdicethree" value="1" level="16" />
+			<stat name="gainhitdicethree" value="1" level="19" />
 		</rules>
 	</element>
 	<element name="CR 1" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_CR_1_3">
@@ -189,14 +194,15 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="companion:cr:1" value="1" inline="true"/>
+			<stat name="challengeratethree" value="1" inline="true"/>
+			<stat name="gainhitdicethree" value="0" />
 
 			<grant type="Class Feature" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ONE_3"/>
 
-			<stat name="hit dice gained:Companion:3" value="1" level="8" />
-			<stat name="hit dice gained:Companion:3" value="1" level="12" />
-			<stat name="hit dice gained:Companion:3" value="1" level="16" />
-			<stat name="hit dice gained:Companion:3" value="1" level="19" />
+			<stat name="gainhitdicethree" value="1" level="8" />
+			<stat name="gainhitdicethree" value="1" level="12" />
+			<stat name="gainhitdicethree" value="1" level="16" />
+			<stat name="gainhitdicethree" value="1" level="19" />
 		</rules>
 	</element>
 	<element name="CR 2" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_CR_2_3">
@@ -208,14 +214,15 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="companion:cr:1" value="2" inline="true"/>
+			<stat name="challengeratethree" value="2" inline="true"/>
+			<stat name="gainhitdicethree" value="0" />
 
 			<grant type="Class Feature" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_TWO_3" />
 
-			<stat name="hit dice gained:Companion:3" value="1" level="8" />
-			<stat name="hit dice gained:Companion:3" value="1" level="12" />
-			<stat name="hit dice gained:Companion:3" value="1" level="16" />
-			<stat name="hit dice gained:Companion:3" value="1" level="19" />
+			<stat name="gainhitdicethree" value="1" level="8" />
+			<stat name="gainhitdicethree" value="1" level="12" />
+			<stat name="gainhitdicethree" value="1" level="16" />
+			<stat name="gainhitdicethree" value="1" level="19" />
 		</rules>
 	</element>
 	<element name="CR 3" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_CR_3_3">
@@ -227,14 +234,15 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="companion:cr:1" value="3" inline="true"/>
+			<stat name="challengeratethree" value="3" inline="true"/>
+			<stat name="gainhitdicethree" value="0" />
 
 			<grant type="Class Feature"
 				id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_THREE_3" />
 
-			<stat name="hit dice gained:Companion:3" value="1" level="12" />
-			<stat name="hit dice gained:Companion:3" value="1" level="16" />
-			<stat name="hit dice gained:Companion:3" value="1" level="19" />
+			<stat name="gainhitdicethree" value="1" level="12" />
+			<stat name="gainhitdicethree" value="1" level="16" />
+			<stat name="gainhitdicethree" value="1" level="19" />
 		</rules>
 	</element>
 	<element name="CR 4" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_CR_4_3">
@@ -246,13 +254,14 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="companion:cr:1" value="4" inline="true"/>
+			<stat name="challengeratethree" value="4" inline="true"/>
+			<stat name="gainhitdicethree" value="0" />
 
 			<grant type="Class Feature"
 				id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_FOUR_3" />
 
-			<stat name="hit dice gained:Companion:3" value="1" level="16" />
-			<stat name="hit dice gained:Companion:3" value="1" level="19" />
+			<stat name="gainhitdicethree" value="1" level="16" />
+			<stat name="gainhitdicethree" value="1" level="19" />
 		</rules>
 	</element>
 	<element name="CR 5" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_CR_5_3">
@@ -264,12 +273,13 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="companion:cr:1" value="5" inline="true"/>
+			<stat name="challengeratethree" value="5" inline="true"/>
+			<stat name="gainhitdicethree" value="0" />
 
 			<grant type="Class Feature"
 				id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_FIVE_3" />
 
-			<stat name="hit dice gained:Companion:3" value="1" level="19" />		</rules>
+			<stat name="gainhitdicethree" value="1" level="19" />		</rules>
 	</element>
 	<element name="CR 6" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_CR_6_3">
 		<supports>Companion 3 CR</supports>
@@ -280,7 +290,8 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="companion:cr:1" value="6" inline="true"/>
+			<stat name="challengeratethree" value="6" inline="true"/>
+			<stat name="gainhitdicethree" value="0" />
 
 			<grant type="Class Feature" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_SI3_3" />
 		</rules>
@@ -841,11 +852,11 @@
 				companion’s Constitution modifier (minimum of 0).</p>
 		</description>
 		<sheet display="false">
-			<description>Your companion gains {{hit dice gained:Companion:3}} Hit Die, increasing
+			<description>Your companion gains +1 Hit Die, increasing
 				its hit point maximum</description>
 		</sheet>
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (2)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -860,7 +871,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (3)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -875,7 +886,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (4)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -890,7 +901,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (5)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -905,7 +916,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (6)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -920,7 +931,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (7)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -935,7 +946,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (8)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -950,7 +961,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (9)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -965,7 +976,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (10)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -980,7 +991,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (11)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -995,7 +1006,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (12)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -1010,7 +1021,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (13)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -1025,7 +1036,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (14)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -1040,7 +1051,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (15)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -1055,7 +1066,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (16)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -1070,7 +1081,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (17)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -1085,7 +1096,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (18)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -1100,7 +1111,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 	<element name="Toughen Up (19)" type="Class Feature" source="Heliana's Guide to Monster Hunting"
@@ -1115,7 +1126,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
 	</element>
 
@@ -1445,10 +1456,10 @@
 			<p>Increase one of your companion's strength scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet>
-			<description>+{{Companion:3:str}} (max 20)</description>
+			<description>+{{3:str}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_2_3">
@@ -1460,7 +1471,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_3_3">
@@ -1472,7 +1483,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_4_3">
@@ -1484,7 +1495,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_5_3">
@@ -1496,7 +1507,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_6_3">
@@ -1508,7 +1519,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_7_3">
@@ -1520,7 +1531,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_8_3">
@@ -1532,7 +1543,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_9_3">
@@ -1544,7 +1555,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_10_3">
@@ -1556,7 +1567,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_11_3">
@@ -1568,7 +1579,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_12_3">
@@ -1580,7 +1591,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_13_3">
@@ -1592,7 +1603,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_14_3">
@@ -1604,7 +1615,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_15_3">
@@ -1616,7 +1627,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_16_3">
@@ -1628,7 +1639,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_17_3">
@@ -1640,7 +1651,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_18_3">
@@ -1652,7 +1663,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	<element name="Strength" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_STRENGTH_19_3">
@@ -1664,7 +1675,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="Companion:3:str" value="1" />
+			<stat name="three:str" value="1" />
 		</rules>
 	</element>
 	
@@ -1675,10 +1686,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet >
-			<description>+{{Companion:3:dex}} (max 20)</description>
+			<description>+{{3:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_2_3">
@@ -1689,10 +1700,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_3_3">
@@ -1703,10 +1714,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_4_3">
@@ -1717,10 +1728,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_5_3">
@@ -1731,10 +1742,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_6_3">
@@ -1745,10 +1756,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_7_3">
@@ -1759,10 +1770,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_8_3">
@@ -1773,10 +1784,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_9_3">
@@ -1787,10 +1798,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_10_3">
@@ -1801,10 +1812,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_11_3">
@@ -1815,10 +1826,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_12_3">
@@ -1829,10 +1840,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_13_3">
@@ -1843,10 +1854,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_14_3">
@@ -1857,10 +1868,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_15_3">
@@ -1871,10 +1882,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_16_3">
@@ -1885,10 +1896,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_17_3">
@@ -1899,10 +1910,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_18_3">
@@ -1913,10 +1924,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	<element name="Dexterity" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_DEXTERITY_19_3">
@@ -1927,10 +1938,10 @@
 			<p>Increase one of your companion's dexterity scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>dex increase by {{Companion:3:dex}} (max 20)</description>
+			<description>dex increase by {{three:dex}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:dex" value="1" />
+			<stat name="three:dex" value="1" />
 		</rules>
 	</element>
 	
@@ -1941,10 +1952,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet>
-			<description>+{{Companion:3:con}} (max 20)</description>
+			<description>+{{3:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_2_3">
@@ -1955,10 +1966,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_3_3">
@@ -1969,10 +1980,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_4_3">
@@ -1983,10 +1994,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 		<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_5_3">
@@ -1997,10 +2008,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_6_3">
@@ -2011,10 +2022,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_7_3">
@@ -2025,10 +2036,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_8_3">
@@ -2039,10 +2050,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_9_3">
@@ -2053,10 +2064,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_10_3">
@@ -2067,10 +2078,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_11_3">
@@ -2081,10 +2092,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_12_3">
@@ -2095,10 +2106,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_13_3">
@@ -2109,10 +2120,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_14_3">
@@ -2123,10 +2134,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_15_3">
@@ -2137,10 +2148,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_16_3">
@@ -2151,10 +2162,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_17_3">
@@ -2165,10 +2176,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_18_3">
@@ -2179,10 +2190,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	<element name="Constitution" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CONSTITUTION_19_3">
@@ -2193,10 +2204,10 @@
 			<p>Increase one of your companion's constitution scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CON increase by {{Companion:3:con}} (max 20)</description>
+			<description>CON increase by {{three:con}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:con" value="1" />
+			<stat name="three:con" value="1" />
 		</rules>
 	</element>
 	
@@ -2207,10 +2218,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet>
-			<description>+{{Companion:3:int}} (max 20)</description>
+			<description>+{{3:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_2_3">
@@ -2221,10 +2232,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_3_3">
@@ -2235,10 +2246,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_4_3">
@@ -2249,10 +2260,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_5_3">
@@ -2263,10 +2274,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_6_3">
@@ -2277,10 +2288,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_7_3">
@@ -2291,10 +2302,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_8_3">
@@ -2305,10 +2316,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_9_3">
@@ -2319,10 +2330,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_10_3">
@@ -2333,10 +2344,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_11_3">
@@ -2347,10 +2358,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_12_3">
@@ -2361,10 +2372,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_13_3">
@@ -2375,10 +2386,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_14_3">
@@ -2389,10 +2400,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_15_3">
@@ -2403,10 +2414,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_16_3">
@@ -2417,10 +2428,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_17_3">
@@ -2431,10 +2442,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_18_3">
@@ -2445,10 +2456,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 	<element name="Intelligence" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_INTELLIGENCE_19_3">
@@ -2459,10 +2470,10 @@
 			<p>Increase one of your companion's intelligence scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>INT increase by {{Companion:3:int}} (max 20)</description>
+			<description>INT increase by {{three:int}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:int" value="1" />
+			<stat name="three:int" value="1" />
 		</rules>
 	</element>
 
@@ -2473,10 +2484,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet>
-			<description>+{{Companion:3:wis}} (max 20)</description>
+			<description>+{{3:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
     <element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_2_3">
@@ -2487,10 +2498,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
     <element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_3_3">
@@ -2501,10 +2512,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
     <element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_4_3">
@@ -2515,10 +2526,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
     <element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_5_3">
@@ -2529,10 +2540,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
     <element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_6_3">
@@ -2543,10 +2554,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
     <element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_7_3">
@@ -2557,10 +2568,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
     <element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_8_3">
@@ -2571,10 +2582,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
     <element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_9_3">
@@ -2585,10 +2596,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
     <element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_10_3">
@@ -2599,10 +2610,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
 		<element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_11_3">
@@ -2613,10 +2624,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
 	<element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_12_3">
@@ -2627,10 +2638,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
 	<element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_13_3">
@@ -2641,10 +2652,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
     <element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_14_3">
@@ -2655,10 +2666,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
 	<element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_15_3">
@@ -2669,10 +2680,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
 	<element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_16_3">
@@ -2683,10 +2694,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
 	<element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_17_3">
@@ -2697,10 +2708,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
 	<element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_18_3">
@@ -2711,10 +2722,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
 	<element name="Wisdom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_WISDOM_19_3">
@@ -2725,10 +2736,10 @@
 			<p>Increase one of your companion's wisdom scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>WIS increase by {{Companion:3:wis}} (max 20)</description>
+			<description>WIS increase by {{three:wis}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:wis" value="1" />
+			<stat name="three:wis" value="1" />
 		</rules>
 	</element>
 
@@ -2739,10 +2750,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet>
-			<description>+{{Companion:3:cha}} (max 20)</description>
+			<description>+{{3:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
     <element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_2_3">
@@ -2753,10 +2764,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_3_3">
@@ -2767,10 +2778,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_4_3">
@@ -2781,10 +2792,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_5_3">
@@ -2795,10 +2806,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_6_3">
@@ -2809,10 +2820,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_7_3">
@@ -2823,10 +2834,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_8_3">
@@ -2837,10 +2848,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_9_3">
@@ -2851,10 +2862,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_10_3">
@@ -2865,10 +2876,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_11_3">
@@ -2879,10 +2890,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_12_3">
@@ -2893,10 +2904,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_13_3">
@@ -2907,10 +2918,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_14_3">
@@ -2921,10 +2932,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_15_3">
@@ -2935,10 +2946,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_16_3">
@@ -2949,10 +2960,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_17_3">
@@ -2963,10 +2974,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_18_3">
@@ -2977,10 +2988,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 	<element name="Charisma" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_ABILITY_BOOST_CHARISMA_19_3">
@@ -2991,10 +3002,10 @@
 			<p>Increase one of your companion's charisma scores by 1, to a maximum of 20</p>
 		</description>
 		<sheet display="false">
-			<description>CHA increase by {{Companion:3:cha}} (max 20)</description>
+			<description>CHA increase by {{three:cha}} (max 20)</description>
 		</sheet>
 		<rules>
-			<stat name="Companion:3:cha" value="1" />
+			<stat name="three:cha" value="1" />
 		</rules>
 	</element>
 
@@ -3016,13 +3027,13 @@
 			</p>
 		</description>
 		<sheet display="false">
-			<description>Your companion gains a +{{go for the throat:bonus:1}} bonus to its attack
+			<description>Your companion gains a +{{goforthethroatthree}} bonus to its attack
 				and
 				damage rolls made with its natural weapons or unarmed strikes.
 			</description>
 		</sheet>
 		<rules>
-			<stat name="go for the throat:bonus:1" value="1" />
+			<stat name="goforthethroatthree" value="1" />
 		</rules>
 	</element>
 	<element name="Go For the Throat (2)" type="Class Feature"
@@ -3044,7 +3055,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="go for the throat:bonus:1" value="1" />
+			<stat name="goforthethroatthree" value="1" />
 		</rules>
 	</element>
 	<element name="Go For the Throat (3)" type="Class Feature"
@@ -3066,7 +3077,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="go for the throat:bonus:1" value="1" />
+			<stat name="goforthethroatthree" value="1" />
 		</rules>
 	</element>
 
@@ -3255,7 +3266,7 @@
 		source="Heliana's Guide to Monster Hunting"
 		id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_2_3">
 		<supports>Companion Improvement 3</supports>
-		<requirements>ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_1_3</requirements>
+		<requirements>ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_2_3</requirements>
 		<compendium display="false" />
 		<description>
 			<p>Your companion gains proficiency with one armour type or two weapons.</p>
@@ -3700,7 +3711,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3717,7 +3728,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3734,7 +3745,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3751,7 +3762,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3768,7 +3779,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3785,7 +3796,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3802,7 +3813,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3818,7 +3829,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3835,7 +3846,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3852,7 +3863,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3869,7 +3880,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3886,7 +3897,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3903,7 +3914,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3920,7 +3931,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3937,7 +3948,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3954,7 +3965,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3971,7 +3982,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -3988,7 +3999,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -4005,7 +4016,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -4022,7 +4033,7 @@
 			<p>Your companion gains proficiency with two weapons.</p>
 		</description>
 		<sheet>
-			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:2}}.
+			<description>Proficiency with {{training war:weapon}} and {{training war:weapon:two}}.
 			</description>
 		</sheet>
         <rules>
@@ -4053,7 +4064,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="clubs" inline="true"/>
+			<stat name="training war:weapon:two" value="clubs" inline="true"/>
 		</rules>
 	</element>
 	<element name="Dagger" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_DAGGER_3">
@@ -4077,7 +4088,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="Daggers" inline="true"/>
+			<stat name="training war:weapon:two" value="Daggers" inline="true"/>
 		</rules>
 	</element>
 	<element name="Greatclub" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_GREATCLUB_3">
@@ -4101,7 +4112,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="greatclubs" inline="true"/>
+			<stat name="training war:weapon:two" value="greatclubs" inline="true"/>
 		</rules>
 	</element>
 	<element name="Handaxe" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_HANDAXE_3">
@@ -4125,7 +4136,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="handaxes" inline="true"/>
+			<stat name="training war:weapon:two" value="handaxes" inline="true"/>
 		</rules>
 	</element>
 	<element name="Javelin" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_JAVELIN_3">
@@ -4149,7 +4160,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="javelins" inline="true"/>
+			<stat name="training war:weapon:two" value="javelins" inline="true"/>
 		</rules>
 	</element>
 	<element name="Light Hammer" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_LIGHT_HAMMER_3">
@@ -4173,7 +4184,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="light hammers" inline="true"/>
+			<stat name="training war:weapon:two" value="light hammers" inline="true"/>
 		</rules>
 	</element>
 	<element name="Mace" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_MACE_3">
@@ -4197,7 +4208,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="maces" inline="true"/>
+			<stat name="training war:weapon:two" value="maces" inline="true"/>
 		</rules>
 	</element>
 	<element name="Quarterstaff" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_QUARTERSTAFF_3">
@@ -4221,7 +4232,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="quarterstaffs" inline="true"/>
+			<stat name="training war:weapon:two" value="quarterstaffs" inline="true"/>
 		</rules>
 	</element>
 	<element name="Sickle" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_SICKLE_3">
@@ -4245,7 +4256,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="sickles" inline="true"/>
+			<stat name="training war:weapon:two" value="sickles" inline="true"/>
 		</rules>
 	</element>
 	<element name="Spear" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_SPEAR_3">
@@ -4269,7 +4280,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="spears" inline="true"/>
+			<stat name="training war:weapon:two" value="spears" inline="true"/>
 		</rules>
 	</element>
 	<element name="Light Crossbow" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_LIGHT_CROSSBOW_3">
@@ -4293,7 +4304,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="light crossbows" inline="true"/>
+			<stat name="training war:weapon:two" value="light crossbows" inline="true"/>
 		</rules>
 	</element>
 	<element name="Dart" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_DART_3">
@@ -4317,7 +4328,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="darts" inline="true"/>
+			<stat name="training war:weapon:two" value="darts" inline="true"/>
 		</rules>
 	</element>
 	<element name="Shortbow" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_SHORTBOW_3">
@@ -4341,7 +4352,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="shortbows" inline="true"/>
+			<stat name="training war:weapon:two" value="shortbows" inline="true"/>
 		</rules>
 	</element>
 	<element name="Sling" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_SLING_3">
@@ -4365,7 +4376,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="slings" inline="true"/>
+			<stat name="training war:weapon:two" value="slings" inline="true"/>
 		</rules>
 	</element>
 	<element name="Battleaxe" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_BATTLEAXE_3">
@@ -4389,7 +4400,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="battleaxes" inline="true"/>
+			<stat name="training war:weapon:two" value="battleaxes" inline="true"/>
 		</rules>
 	</element>
 	<element name="Flail" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_FLAIL_3">
@@ -4413,7 +4424,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="flails" inline="true"/>
+			<stat name="training war:weapon:two" value="flails" inline="true"/>
 		</rules>
 	</element>
 	<element name="Glaive" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_GLAIVE_3">
@@ -4437,7 +4448,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="glaives" inline="true"/>
+			<stat name="training war:weapon:two" value="glaives" inline="true"/>
 		</rules>
 	</element>
 	<element name="Greataxe" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_GREATAXE_3">
@@ -4461,7 +4472,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="greataxes" inline="true"/>
+			<stat name="training war:weapon:two" value="greataxes" inline="true"/>
 		</rules>
 	</element>
 	<element name="Greatsword" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_GREATSWORD_3">
@@ -4485,7 +4496,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="greatswords" inline="true"/>
+			<stat name="training war:weapon:two" value="greatswords" inline="true"/>
 		</rules>
 	</element>
 	<element name="Halberd" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_HALBERD_3">
@@ -4509,7 +4520,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="halberds" inline="true"/>
+			<stat name="training war:weapon:two" value="halberds" inline="true"/>
 		</rules>
 	</element>
 	<element name="Lance" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_LANCE_3">
@@ -4533,7 +4544,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="lances" inline="true"/>
+			<stat name="training war:weapon:two" value="lances" inline="true"/>
 		</rules>
 	</element>
 	<element name="Longsword" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_LONGSWORD_3">
@@ -4557,7 +4568,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="longswords" inline="true"/>
+			<stat name="training war:weapon:two" value="longswords" inline="true"/>
 		</rules>
 	</element>
 	<element name="Maul" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_MAUL_3">
@@ -4581,7 +4592,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="mauls" inline="true"/>
+			<stat name="training war:weapon:two" value="mauls" inline="true"/>
 		</rules>
 	</element>
 	<element name="Morningstar" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_MORNINGSTAR_3">
@@ -4605,7 +4616,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="morningstars" inline="true"/>
+			<stat name="training war:weapon:two" value="morningstars" inline="true"/>
 		</rules>
 	</element>
 	<element name="Pike" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_PIKE_3">
@@ -4629,7 +4640,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="pikes" inline="true"/>
+			<stat name="training war:weapon:two" value="pikes" inline="true"/>
 		</rules>
 	</element>
 	<element name="Rapier" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_RAPIER_3">
@@ -4653,7 +4664,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="rapiers" inline="true"/>
+			<stat name="training war:weapon:two" value="rapiers" inline="true"/>
 		</rules>
 	</element>
 	<element name="Scimitar" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_SCIMITAR_3">
@@ -4677,7 +4688,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="scimitars" inline="true"/>
+			<stat name="training war:weapon:two" value="scimitars" inline="true"/>
 		</rules>
 	</element>
 	<element name="Shortsword" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_SHORTSWORD_3">
@@ -4701,7 +4712,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="shortswords" inline="true"/>
+			<stat name="training war:weapon:two" value="shortswords" inline="true"/>
 		</rules>
 	</element>
 	<element name="Trident" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_TRIDENT_3">
@@ -4725,7 +4736,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="tridents" inline="true"/>
+			<stat name="training war:weapon:two" value="tridents" inline="true"/>
 		</rules>
 	</element>
 	<element name="War Pick" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_WAR_PICK_3">
@@ -4749,7 +4760,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="war picks" inline="true"/>
+			<stat name="training war:weapon:two" value="war picks" inline="true"/>
 		</rules>
 	</element>
 	<element name="Warhammer" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_WARHAMMER_3">
@@ -4773,7 +4784,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="warhammers" inline="true"/>
+			<stat name="training war:weapon:two" value="warhammers" inline="true"/>
 		</rules>
 	</element>
 	<element name="Whip" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_WHIP_3">
@@ -4797,7 +4808,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="whips" inline="true"/>
+			<stat name="training war:weapon:two" value="whips" inline="true"/>
 		</rules>
 	</element>
 	<element name="Blowgun" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_BLOWGUN_3">
@@ -4821,7 +4832,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="blowguns" inline="true"/>
+			<stat name="training war:weapon:two" value="blowguns" inline="true"/>
 		</rules>
 	</element>
 	<element name="Hand Crossbow" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_HAND_CROSSBOW_3">
@@ -4845,7 +4856,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="hand crossbows" inline="true"/>
+			<stat name="training war:weapon:two" value="hand crossbows" inline="true"/>
 		</rules>
 	</element>
 	<element name="Heavy Crossbow" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_HEAVY_CROSSBOW_3">
@@ -4869,7 +4880,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="heavy crossbows" inline="true"/>
+			<stat name="training war:weapon:two" value="heavy crossbows" inline="true"/>
 		</rules>
 	</element>
 	<element name="Longbow" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_LONGBOW_3">
@@ -4893,7 +4904,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="longbows" inline="true"/>
+			<stat name="training war:weapon:two" value="longbows" inline="true"/>
 		</rules>
 	</element>
 	<element name="Net" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_NET_3">
@@ -4917,7 +4928,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="nets" inline="true"/>
+			<stat name="training war:weapon:two" value="nets" inline="true"/>
 		</rules>
 	</element>
 	<element name="Custom" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_TAMER_COMPANION_IMPROVEMENT_TRAINING_WAR_TRAINING_CUSTOM_3">
@@ -4941,7 +4952,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="training war:weapon:2" value="_____________" inline="true"/>
+			<stat name="training war:weapon:two" value="_____________" inline="true"/>
 		</rules>
 	</element>
  <!-- Splicer Augments 
@@ -5332,7 +5343,7 @@
 		<rules>
 			<stat name="growth hormone:size:3" value="1" />
 			<stat name="growth hormone:hd:3" value="1" />
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
     </element>
     <element name="Companion 3 Augment (4): Growth Hormone (2)" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_COMPANION_SPLICE_3_GROWTH_HORMONE_2">
@@ -5347,7 +5358,7 @@
 		<rules>
 			<stat name="growth hormone:size:3" value="1" />
 			<stat name="growth hormone:hd:3" value="1" />
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
     </element>	
     <element name="Companion 3 Augment (4): Growth Hormone (3)" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_COMPANION_SPLICE_3_GROWTH_HORMONE_3">
@@ -5362,7 +5373,7 @@
 		<rules>
 			<stat name="growth hormone:size:3" value="1" />
 			<stat name="growth hormone:hd:3" value="1" />
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
     </element>	
     <element name="Companion 3 Augment (4): Growth Hormone (4)" type="Class Feature" source="Heliana's Guide to Monster Hunting" id="ID_LT_HGTMH_CLASS_FEATURE_COMPANION_SPLICE_3_GROWTH_HORMONE_4">
@@ -5377,7 +5388,7 @@
 		<rules>
 			<stat name="growth hormone:size:3" value="1" />
 			<stat name="growth hormone:hd:3" value="1" />
-			<stat name="hit dice gained:Companion:3" value="1" />
+			<stat name="gainhitdicethree" value="1" />
 		</rules>
     </element> 
     -->
